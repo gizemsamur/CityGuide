@@ -1,0 +1,392 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/home_background"
+    tools:context=".Categories.ReligiousPlaceCategories">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="15dp"
+        android:layout_margin="10dp"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="?actionBarSize">
+
+            <ImageView
+                android:id="@+id/back_pressed"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:padding="10dp"
+                android:src="@drawable/general_back_icon" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/general_search_icon"
+                android:padding="10dp"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"/>
+
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/featured_image"
+            android:layout_width="match_parent"
+            android:layout_height="140dp"
+            android:src="@drawable/kucukayasofya"
+            android:scaleType="centerCrop"/>
+
+        <TextView
+            android:id="@+id/featured_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="KÜÇÜK AYASOFYA KİLİSESİ (GAZİ SÜLEYMAN PAŞA CAMİSİ)"
+            android:textSize="16sp"
+            android:textColor="@color/colorAccent"
+            android:fontFamily="sans-serif-medium"/>
+
+        <RatingBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:rating="4.6"
+            style="@style/Widget.AppCompat.RatingBar.Small"/>
+
+        <TextView
+            android:id="@+id/featured_desc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Gazi Süleyman Paşa Camisi olarak da bilinen Küçük Ayasofya Kilisesi; Kırklareli’nin Vize ilçesinin Kale Mahallesi’nde bulunmaktadır.İç ve dış surlar arasında yer alan kilise 6. yüzyılda Jüstiyen Dönemi’nde yapılmıştır. 14. yüzyılda camiye dönüştürülerek kullanılmaya başlanmış olup günümüzde de kullanılmaktadır.
+            \n Saatler: 24 saat açık."/>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp">
+            <EditText
+                android:id="@+id/comment"
+                android:layout_width="300dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginBottom="0dp"
+                android:hint="Yorum Yazınız:"
+                android:inputType="text"
+                android:textColor="@color/black">
+            </EditText>
+            <Button
+                android:id="@+id/commentBtn"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="10dp"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/comment2">
+
+            </Button>
+
+
+        </RelativeLayout>
+        <ImageView
+            android:id="@+id/featured_image5"
+            android:layout_width="match_parent"
+            android:layout_height="140dp"
+            android:src="@drawable/sokullumehmet"
+            android:scaleType="fitXY"/>
+
+        <TextView
+            android:id="@+id/featured_title5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SOKULLU MEHMET PAŞA KÜLLİYESİ"
+            android:textSize="16sp"
+            android:textColor="@color/colorAccent"
+            android:fontFamily="sans-serif-medium"/>
+
+        <RatingBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:rating="4.6"
+            style="@style/Widget.AppCompat.RatingBar.Small"/>
+
+        <TextView
+            android:id="@+id/featured_desc5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" Kırklareli’nin Lüleburgaz ilçesinde bulunmaktadır. 1569 yılında Sokullu Mehmet Paşa tarafından dönemin baş mimarı Mimar Sinan ve ekibi Hassa Mimarlar Teşkilatı’na inşa ettirilmiştir. Külliye; cami, medrese, kervansaray, tabhane, imaret, arasta, dua kubbesi, hazire, sıbyan mektebi, çifte hamam, köprü, çeşme, su yolları ve sarnıçtan oluşmaktadır. Günümüze kadar bu yapılardan sadece cami, medrese, arasta ve hamam bütünlüğünü koruyarak gelebilmiştir.
+            \nSaatler: 24 saat açık.
+            \nAdres:Adres: Kocasinan Mah., Lüleburgaz Merkez, Lüleburgaz, Kırklareli"/>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp">
+            <EditText
+                android:id="@+id/comment"
+                android:layout_width="300dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginBottom="0dp"
+                android:hint="Yorum Yazınız:"
+                android:inputType="text"
+                android:textColor="@color/black"
+                tools:ignore="DuplicateIds">
+            </EditText>
+            <Button
+                android:id="@+id/commentBtn"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="10dp"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/comment2"
+                tools:ignore="DuplicateIds">
+
+            </Button>
+
+
+        </RelativeLayout>
+        <ImageView
+            android:id="@+id/featured_image4"
+            android:layout_width="match_parent"
+            android:layout_height="140dp"
+            android:src="@drawable/hizirbey"
+            android:scaleType="centerCrop"/>
+
+        <TextView
+            android:id="@+id/featured_title4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="HIZIRBEY KÜLLİYESİ VE HIZIRBEY CAMİSİ"
+            android:textSize="16sp"
+            android:textColor="@color/colorAccent"
+            android:fontFamily="sans-serif-medium"/>
+
+        <RatingBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:rating="4.6"
+            style="@style/Widget.AppCompat.RatingBar.Small"/>
+
+        <TextView
+            android:id="@+id/featured_desc4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hızırbey Külliyesi, Kırklareli Merkez’de bulunmaktadır. Hızırbey Külliyesi; Hızırbey Camisi, çifte hamam, arasta ve çeşmeden oluşmaktadır. Arasta ve hamam birleşik olarak inşa edilmiştir.
+            \nGünümüzde de ibadete açıktır."/>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp">
+            <EditText
+                android:id="@+id/comment"
+                android:layout_width="300dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginBottom="0dp"
+                android:hint="Yorum Yazınız:"
+                android:inputType="text"
+                android:textColor="@color/black"
+                tools:ignore="DuplicateIds">
+            </EditText>
+            <Button
+                android:id="@+id/commentBtn"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="10dp"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/comment2"
+                tools:ignore="DuplicateIds">
+
+            </Button>
+
+
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/featured_image1"
+            android:layout_width="match_parent"
+            android:layout_height="140dp"
+            android:src="@drawable/ceditali"
+            android:scaleType="centerCrop"/>
+
+        <TextView
+            android:id="@+id/featured_title1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CEDİT ALİ PAŞA CAMİSİ"
+            android:textSize="16sp"
+            android:textColor="@color/colorAccent"
+            android:fontFamily="sans-serif-medium"/>
+
+        <RatingBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:rating="4.6"
+            style="@style/Widget.AppCompat.RatingBar.Small"/>
+
+        <TextView
+            android:id="@+id/featured_desc1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cedit Ali Paşa Camisi, Kırklareli’nin Babaeski ilçesinde bulunmaktadır. 1555 yılında Cedit Ali Paşa tarafından Mimar Sinan’a inşa ettirilmiştir. 1832 yılında etraflıca bir onarım gören cami, günümüzde de kullanılmaya devam edilmektedir
+            \nAdres: Atatürk, 39270 Babaeski/Kırklareli"/>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp">
+            <EditText
+                android:id="@+id/comment"
+                android:layout_width="300dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginBottom="0dp"
+                android:hint="Yorum Yazınız:"
+                android:inputType="text"
+                android:textColor="@color/black"
+                tools:ignore="DuplicateIds">
+            </EditText>
+            <Button
+                android:id="@+id/commentBtn"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="10dp"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/comment2"
+                tools:ignore="DuplicateIds">
+
+            </Button>
+
+
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/featured_image3"
+            android:layout_width="match_parent"
+            android:layout_height="140dp"
+            android:src="@drawable/ayanikola"
+            android:scaleType="centerCrop"/>
+
+        <TextView
+            android:id="@+id/featured_title3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="AYA NİKOLA MANASTIRI"
+            android:textSize="16sp"
+            android:textColor="@color/colorAccent"
+            android:fontFamily="sans-serif-medium"/>
+
+        <RatingBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:rating="4.6"
+            style="@style/Widget.AppCompat.RatingBar.Small"/>
+
+        <TextView
+            android:id="@+id/featured_desc3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Aya Nikola Manastırı, Kırklareli’nin Vize ilçesine bağlı Kıyıköy Kasabası’nda bulunmaktadır. Papuçdere yolunda güney yamaçta ye alan Manastır, Kıyıköy’e 700 metrelik mesafede bulunmaktadır. 6- 9. yüzyıllara ait kaya manastırlarının en güzel örnekleri arasında yer almaktadır. Aya Nikola Manastırı’nın üst kısmında keşişlere ait bölümler, daha aşağı kısmında ayazma ve zemin katında ise kilise bulunmaktadır.
+            \nSaatler:24 saat açık."/>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp">
+            <EditText
+                android:id="@id/comment"
+                android:layout_width="300dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginBottom="0dp"
+                android:hint="Yorum Yazınız:"
+                android:inputType="text"
+                android:textColor="@color/black">
+            </EditText>
+            <Button
+                android:id="@id/commentBtn"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="10dp"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/comment2"
+                tools:ignore="DuplicateIds">
+
+            </Button>
+
+
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/featured_image2"
+            android:layout_width="match_parent"
+            android:layout_height="140dp"
+            android:src="@drawable/magaramanastir"
+            android:scaleType="centerCrop"/>
+
+        <TextView
+            android:id="@+id/featured_title2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MAĞARA MANASTIRI"
+            android:textSize="16sp"
+            android:textColor="@color/colorAccent"
+            android:fontFamily="sans-serif-medium"/>
+
+        <RatingBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:rating="4.6"
+            style="@style/Widget.AppCompat.RatingBar.Small"/>
+
+        <TextView
+            android:id="@+id/featured_desc2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mağara Manastırı olarak bilinen Asma Kaya Mağara Manastırı, Kırklareli ilinin Vize ilçesinde bulunmaktadır. İlçe merkezinin 1650 metre kuzeydoğusunda bulunan Asma Kaya mevkisinde yer almaktadır.
+            \nSaatler:24 saat açık."/>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp">
+            <EditText
+                android:id="@+id/comment"
+                android:layout_width="300dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginBottom="0dp"
+                android:hint="Yorum Yazınız:"
+                android:inputType="text"
+                android:textColor="@color/black"
+                tools:ignore="DuplicateIds">
+            </EditText>
+            <Button
+                android:id="@+id/commentBtn"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="10dp"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/comment2"
+                tools:ignore="DuplicateIds">
+
+            </Button>
+
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+
+</ScrollView>

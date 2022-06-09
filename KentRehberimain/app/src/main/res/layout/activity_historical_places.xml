@@ -1,0 +1,472 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/home_background"
+    tools:context=".Categories.HistoricalPlaces">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:orientation="vertical"
+        android:padding="15dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="?actionBarSize">
+
+            <ImageView
+                android:id="@+id/back_pressed"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:padding="10dp"
+                android:src="@drawable/general_back_icon" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:padding="10dp"
+                android:src="@drawable/general_search_icon" />
+
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/featured_image"
+            android:layout_width="match_parent"
+            android:layout_height="140dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/kirklareli_muze" />
+
+        <TextView
+            android:id="@+id/featured_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-medium"
+            android:text="Kırklareli Müzesi"
+            android:textColor="@color/colorAccent"
+            android:textSize="16sp" />
+
+        <RatingBar
+            style="@style/Widget.AppCompat.RatingBar.Small"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:rating="4.6" />
+
+        <TextView
+            android:id="@+id/featured_desc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kırklareli çevresi höyüklerdeki kazılardan elde edilmiş 2000-3000 yıllık ve daha da eski bulgular detaylı şekilde anlatılmış.
+            \nYakın dönemden eserler ve bölgede yaşayan yaban hayvanlarının doldurulmuş halleri de mevcut. \nGiriş ücretsiz
+            \nSaatler: Haftaiçi ve Cumartesi->08:30-17:30
+            \n               Pazar:Kapalı" />
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp">
+
+            <EditText
+                android:id="@+id/comment"
+                android:layout_width="300dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginBottom="0dp"
+                android:hint="Yorum Yazınız:"
+                android:inputType="text"
+                android:textColor="@color/black"></EditText>
+            <Button
+                android:id="@+id/commentBtn"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="10dp"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/comment2">
+
+            </Button>
+
+
+        </RelativeLayout>
+        <ImageView
+            android:id="@+id/featured_image2"
+            android:layout_width="match_parent"
+            android:layout_height="140dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/ataturkeviimg" />
+
+        <TextView
+            android:id="@+id/featured_title2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-medium"
+            android:text="Atatürk Evi"
+            android:textColor="@color/colorAccent"
+            android:textSize="16sp" />
+
+        <RatingBar
+            style="@style/Widget.AppCompat.RatingBar.Small"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:rating="4.6" />
+
+        <TextView
+            android:id="@+id/featured_desc2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Yunanistan’ın Selanik İlinde bulunan Atatürk’ün doğduğu evin kopyası Kırklareli Belediye Başkanı tarafından Kırklareli ilimize yaptırılmıştır.
+            \nRehber hizmeti mevcut.
+            \nGiriş Ücreti:Öğrenci->2TL
+            \n                     Tam->5TL
+            \nSaatler: Pazartesi Kapalı.
+            \nSalı-Çarşamba-Perşembe-Cuma-Cuma-Cumartesi-Pazar
+            \n->09:30-17:30" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp">
+            <EditText
+                android:id="@+id/comment"
+                android:layout_width="300dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginBottom="0dp"
+                android:hint="Yorum Yazınız:"
+                android:inputType="text"
+                android:textColor="@color/black"
+                tools:ignore="DuplicateIds">
+            </EditText>
+            <Button
+                android:id="@+id/commentBtn"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="10dp"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/comment2"
+                tools:ignore="DuplicateIds">
+
+            </Button>
+
+
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/featured_image3"
+            android:layout_width="match_parent"
+            android:layout_height="140dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/alimuze" />
+
+        <TextView
+            android:id="@+id/featured_title3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-medium"
+            android:text="Ali Rıza Efendi Kültür Evi"
+            android:textColor="@color/colorAccent"
+            android:textSize="16sp" />
+
+        <RatingBar
+            style="@style/Widget.AppCompat.RatingBar.Small"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:rating="4.6" />
+
+        <TextView
+            android:id="@+id/featured_desc3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2017 yılında Kırklareli sakinlerinin desteği ve bağışları ile kurulmuş, Kırklarelinin bir çok milletten nasıl güzel ve bir arada yaşayan bir kültürü olduğunu anlatan bir müzedir." />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp">
+            <EditText
+                android:id="@+id/comment"
+                android:layout_width="300dp"
+                android:layout_height="0dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="0dp"
+                android:hint="Yorum Yazınız:"
+                android:inputType="text"
+                android:textColor="@color/black"
+                tools:ignore="DuplicateIds">
+            </EditText>
+            <Button
+                android:id="@+id/commentBtn"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="10dp"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/comment2"
+                tools:ignore="DuplicateIds">
+
+            </Button>
+
+
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/featured_image4"
+            android:layout_width="match_parent"
+            android:layout_height="140dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/vizekale" />
+
+        <TextView
+            android:id="@+id/featured_title4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-medium"
+            android:text="Vize Kalesi"
+            android:textColor="@color/colorAccent"
+            android:textSize="16sp" />
+
+        <RatingBar
+            style="@style/Widget.AppCompat.RatingBar.Small"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:rating="4.6" />
+
+        <TextView
+            android:id="@+id/featured_desc4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Vize ilçe merkezinde yer alan Vize Kalesi, 4 metre yüksekliğinde taş bloklardan oluşmuş tarihi bir yapıdır. Günümüze kale yapısının surlarından çok az bir bölüm kalmıştır ve 3-4 metre yüksekliğindedir.
+            \nAdres: Mehmet Akif, 39480 Vize/Kırklareli
+            \nZiyaret saatleri: Gün boyu
+            \nGiriş ücreti: Ücretsiz" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp">
+            <EditText
+                android:id="@+id/comment"
+                android:layout_width="300dp"
+                android:layout_height="0dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="0dp"
+                android:hint="Yorum Yazınız:"
+                android:inputType="text"
+                android:textColor="@color/black"
+                tools:ignore="DuplicateIds">
+            </EditText>
+            <Button
+                android:id="@+id/commentBtn"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="10dp"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/comment2"
+                tools:ignore="DuplicateIds">
+
+            </Button>
+
+
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/featured_image5"
+            android:layout_width="match_parent"
+            android:layout_height="140dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/pinarhisarkale" />
+
+        <TextView
+            android:id="@+id/featured_title5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-medium"
+            android:text="Pınarhisar Kalesi"
+            android:textColor="@color/colorAccent"
+            android:textSize="16sp" />
+
+        <RatingBar
+            style="@style/Widget.AppCompat.RatingBar.Small"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:rating="4.6" />
+
+        <TextView
+            android:id="@+id/featured_desc5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="5. yüzyılda, Bizans döneminde inşa edildiği bilinen Pınarhisar Kalesi, Osmanlı döneminde revize çalışmalarından geçmiş ve bugünkü halini almıştır. Kale, ilçenin kuzeyinde çevreyi gözlemleyebileceğiniz bir tepede yer almaktadır. Kalenin devamında ise ilçe merkezine inen sur duvarlarının kalıntılarını görebilirsiniz. Kale, günümüzde 3. derece sit alanı olarak ilan edilmiş ve koruma altına alınmıştır.
+            \nAdres: Camiikebir, 39300 Pınarhisar/Kırklareli
+            \nZiyaret saatleri: Gün boyu
+            \nGiriş ücreti: Ücretsiz" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp">
+            <EditText
+                android:id="@+id/comment"
+                android:layout_width="300dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="0dp"
+                android:hint="Yorum Yazınız:"
+                android:inputType="text"
+                android:textColor="@color/black"
+                tools:ignore="DuplicateIds">
+            </EditText>
+            <Button
+                android:id="@+id/commentBtn"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="10dp"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/comment2"
+                tools:ignore="DuplicateIds">
+
+            </Button>
+
+
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/featured_image6"
+            android:layout_width="match_parent"
+            android:layout_height="140dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/kiyikoykale" />
+
+        <TextView
+            android:id="@+id/featured_title6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-medium"
+            android:text="Kıyıköy Kalesi"
+            android:textColor="@color/colorAccent"
+            android:textSize="16sp" />
+
+        <RatingBar
+            style="@style/Widget.AppCompat.RatingBar.Small"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:rating="4.6" />
+
+        <TextView
+            android:id="@+id/featured_desc6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bizans dönemine ait Kıyıköy Kalesi, 6. yüzyılda, Jüstinyen döneminde yapılmış şehrin en eski tarihi yapılarından biri. Kale, 9. ve 10. yüzyıllarda onarımdan geçirilmiştir. Kalenin surları 6 metreye kadar yükselmektedir.
+            \nAdres: Kıyıköy, Kırklareli
+            \nZiyaret saatleri: Gün boyu
+            \nGiriş ücreti: Ücretsiz" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp">
+            <EditText
+                android:id="@+id/comment"
+                android:layout_width="300dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="0dp"
+                android:hint="Yorum Yazınız:"
+                android:inputType="text"
+                android:textColor="@color/black"
+                tools:ignore="DuplicateIds">
+            </EditText>
+            <Button
+                android:id="@+id/commentBtn"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="10dp"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/comment2"
+                tools:ignore="DuplicateIds">
+
+            </Button>
+
+
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/featured_image7"
+            android:layout_width="match_parent"
+            android:layout_height="140dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/dupnisa" />
+
+        <TextView
+            android:id="@+id/featured_title7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-medium"
+            android:text="Kıyıköy Kalesi"
+            android:textColor="@color/colorAccent"
+            android:textSize="16sp" />
+
+        <RatingBar
+            style="@style/Widget.AppCompat.RatingBar.Small"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:rating="4.6" />
+
+        <TextView
+            android:id="@+id/featured_desc7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Türkiye–Bulgaristan sınırında yer alan Dupnisa Mağarası, Trakya’nın turizme açılan ilk ve tek mağarasıdır. Yeşilin her tonunu görebileceğiniz ağaçlarla kaplı bölgede yer alan mağara, iki kat ve üç mağaradan oluşmuştur. Mağaranın gelişiminin 4 milyon yıldır devam ettiği belirtilmektedir.
+            \nAdres: Sarpdere Köyü İç Yolu, 39500 Sarpdere Köyü/Demirköy/Kırklareli Merkez/Kırklareli
+            \nZiyaret saatleri: 15 Kasım – 15 Mayıs tarihleri arasında yarasaların üreme dönemi olduğundan ziyarete kapalı. Diğer tarih aralığında 08.00-17.00 arası ziyaret edilebilir.
+            \nGiriş ücreti: Normal 15₺, Öğrenci 5₺, Otopark için 5₺" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp">
+            <EditText
+                android:id="@+id/comment"
+                android:layout_width="300dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginBottom="0dp"
+                android:hint="Yorum Yazınız:"
+                android:inputType="text"
+                android:textColor="@color/black"
+                tools:ignore="DuplicateIds">
+            </EditText>
+            <Button
+                android:id="@+id/commentBtn"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="10dp"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/comment2"
+                tools:ignore="DuplicateIds">
+
+            </Button>
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+
+</ScrollView>

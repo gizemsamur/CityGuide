@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">CityGuide</string>
+    <string name="logo_name">Kent Rehberi</string>
+
+
+    <!--Strings for Dashboard-->
+
+    <!-- Categories -->
+    <string name="hotels">Oteller</string>
+    <string name="market">Marketler</string>
+    <string name="shops">Shops</string>
+    <string name="parks">Parklar</string>
+    <string name="historical_place">Tarihi Yerler</string>
+
+    <!-- Titles and Descriptions-->
+    <string name="featured_locations">En Beğenilen Yerler</string>
+    <string name="featured_locations_description">Şehirde öne çıkan ve en çok talep gören yerler!</string>
+    <string name="most_viewed_locations">En Çok Arananlar</string>
+    <string name="categories">Kategoriler</string>
+    <string name="view_all">Daha Fazlası..</string>
+    <string name="search_text">Ara...</string>
+
+
+    <string name="slogan_name">Şehrinizdeki her şey burada!</string>
+    <string name="startup_heading">Şehrinizi\nKeşfe Çıkın</string>
+    <string name="startup_tag_line">Şehrinizde ihtiyacınız olan yerleri kolayca öğrenip fikir edinmenize yardımcı olacağız!</string>
+    <string name="create_account">Kaydol</string>
+    <string name="login">Giriş</string>
+    <string name="enter_username">Kullanıcı adı</string>
+    <string name="enter_password">Şifre</string>
+    <string name="remember_me">Beni Hatırla</string>
+    <string name="enter_full_name">Adınız</string>
+    <string name="enter_last_name">Soyadınız</string>
+    <string name="enter_email">E-mail</string>
+    <string name="next_btn">İleri</string>
+
+
+</resources>
+

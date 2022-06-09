@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "336450698766",
+    "project_id": "kentrehberi-main",
+    "storage_bucket": "kentrehberi-main.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:336450698766:android:1e0ee31743386a90cf065f",
+        "android_client_info": {
+          "package_name": "com.gizemsamur.kentrehberi_main"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "336450698766-0u325l1b837liu46d5hlirdtml8vnvma.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA3JIzzXR1DIylj-lofyVJ-SAr1h4ctWj0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "336450698766-0u325l1b837liu46d5hlirdtml8vnvma.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

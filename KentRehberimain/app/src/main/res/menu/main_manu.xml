@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:title="Anasayfa"
+            android:icon="@drawable/menu_icon"/>
+        <item
+            android:id="@+id/nav_search"
+            android:title="Arama Yap"
+            android:icon="@drawable/menu_icon"/>
+        <item
+            android:id="@+id/nav_all_categories"
+            android:title="Kategoriler"
+            android:icon="@drawable/menu_icon"/>
+        <item
+            android:id="@+id/nav_add_missing_place"
+            android:title="Yeni Yer Ekle"
+            android:icon="@drawable/menu_icon"/>
+    </group>
+
+
+    <item android:title="Profile">
+        <menu>
+
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_login"
+                    android:title="Giriş Yap"
+                    android:icon="@drawable/menu_icon"/>
+                <item
+                    android:id="@+id/nav_profile"
+                    android:title="Profil"
+                    android:icon="@drawable/menu_icon"/>
+                <item
+                    android:id="@+id/nav_logout"
+                    android:title="Çıkış Yap"
+                    android:icon="@drawable/menu_icon"/>
+            </group>
+
+        </menu>
+
+    </item>
+
+    <item android:title="Categories">
+        <menu>
+
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_park"
+                    android:title="Parklar"
+                    android:icon="@drawable/menu_icon"/>
+                <item
+                    android:id="@+id/nav_historicalplaces"
+                    android:title="Tarihi Yerler"
+                    android:icon="@drawable/menu_icon"/>
+                <item
+                    android:id="@+id/nav_carpark"
+                    android:title="Otoparklar"
+                    android:icon="@drawable/menu_icon"/>
+                <item
+                    android:id="@+id/nav_libraries"
+                    android:title="Kütüphaneler"
+                    android:icon="@drawable/menu_icon"/>
+                <item
+                    android:id="@+id/nav_market"
+                    android:title="Marketler"
+                    android:icon="@drawable/menu_icon"/>
+                <item
+                    android:id="@+id/nav_hotels"
+                    android:title="Oteller"
+                    android:icon="@drawable/menu_icon"/>
+                <item
+                    android:id="@+id/nav_mosque"
+                    android:title="İbadet Yerleri"
+                    android:icon="@drawable/menu_icon"/>
+            </group>
+
+        </menu>
+
+    </item>
+
+    <item android:title="Share">
+        <menu>
+
+            <group android:checkableBehavior="none">
+                <item
+                    android:id="@+id/nav_share"
+                    android:title="Paylaş"
+                    android:icon="@drawable/menu_icon"/>
+                <item
+                    android:id="@+id/nav_rate_us"
+                    android:title="Bizi Değerlendirin"
+                    android:icon="@drawable/menu_icon"/>
+
+            </group>
+
+        </menu>
+
+    </item>
+
+</menu>

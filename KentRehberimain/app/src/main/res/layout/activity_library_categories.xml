@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/home_background"
+    tools:context=".Categories.LibraryCategories">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="15dp"
+        android:layout_margin="10dp"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="?actionBarSize">
+
+            <ImageView
+                android:id="@+id/back_pressed"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:padding="10dp"
+                android:src="@drawable/general_back_icon" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/general_search_icon"
+                android:padding="10dp"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"/>
+
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/featured_image"
+            android:layout_width="match_parent"
+            android:layout_height="140dp"
+            android:src="@drawable/kutuphane_mostv"
+            android:scaleType="centerCrop"/>
+
+        <TextView
+            android:id="@+id/featured_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kırklareli İl Halk Kütüphanesi"
+            android:textSize="16sp"
+            android:textColor="@color/colorAccent"
+            android:fontFamily="sans-serif-medium"/>
+
+        <RatingBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:rating="4.6"
+            style="@style/Widget.AppCompat.RatingBar.Small"/>
+
+        <TextView
+            android:id="@+id/featured_desc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ödünç Kitap Hizmeti \nGeçici Kütüphane Dermesi
+            \nİnternet Erişim Hizmeti\nKütüphaneler Arası Ödünç Verme Hizmeti
+            \nSaatler: Haftaiçi->08:30-22:00"/>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp">
+            <EditText
+                android:id="@+id/comment"
+                android:layout_width="300dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginBottom="0dp"
+                android:hint="Yorum Yazınız:"
+                android:inputType="text"
+                android:textColor="@color/black">
+            </EditText>
+            <Button
+                android:id="@+id/commentBtn"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="10dp"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/comment2">
+
+            </Button>
+
+
+        </RelativeLayout>
+        <ImageView
+            android:id="@+id/featured_image2"
+            android:layout_width="match_parent"
+            android:layout_height="140dp"
+            android:src="@drawable/uni_kutuphane"
+            android:scaleType="fitXY"/>
+
+        <TextView
+            android:id="@+id/featured_title2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kırklareli Üniversitesi Merkez Kütüphanesi"
+            android:textSize="16sp"
+            android:textColor="@color/colorAccent"
+            android:fontFamily="sans-serif-medium"/>
+
+        <RatingBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:rating="4.6"
+            style="@style/Widget.AppCompat.RatingBar.Small"/>
+
+        <TextView
+            android:id="@+id/featured_desc2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Saatler: Haftaiçi->08:30-17:30
+            \n               Haftasonu->Kapalı"/>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp">
+            <EditText
+                android:id="@+id/comment"
+                android:layout_width="300dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginBottom="0dp"
+                android:hint="Yorum Yazınız:"
+                android:inputType="text"
+                android:textColor="@color/black"
+                tools:ignore="DuplicateIds">
+            </EditText>
+            <Button
+                android:id="@+id/commentBtn"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="10dp"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/comment2"
+                tools:ignore="DuplicateIds">
+
+            </Button>
+
+
+        </RelativeLayout>
+        <ImageView
+            android:id="@+id/featured_image3"
+            android:layout_width="match_parent"
+            android:layout_height="140dp"
+            android:src="@drawable/kolektif_kutup"
+            android:scaleType="centerCrop"/>
+
+        <TextView
+            android:id="@+id/featured_title3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kolektif Kütüphane"
+            android:textSize="16sp"
+            android:textColor="@color/colorAccent"
+            android:fontFamily="sans-serif-medium"/>
+
+        <RatingBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:rating="4.6"
+            style="@style/Widget.AppCompat.RatingBar.Small"/>
+
+        <TextView
+            android:id="@+id/featured_desc3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Telefon:0539 288 77 18
+             \nÇalışma Saatleri:Haftanın Her Günü->09:00-00:00"/>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp">
+            <EditText
+                android:id="@+id/comment"
+                android:layout_width="300dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginBottom="0dp"
+                android:hint="Yorum Yazınız:"
+                android:inputType="text"
+                android:textColor="@color/black"
+                tools:ignore="DuplicateIds">
+            </EditText>
+            <Button
+                android:id="@+id/commentBtn"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="10dp"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/comment2"
+                tools:ignore="DuplicateIds">
+
+            </Button>
+
+
+        </RelativeLayout>
+
+
+
+
+    </LinearLayout>
+</ScrollView>

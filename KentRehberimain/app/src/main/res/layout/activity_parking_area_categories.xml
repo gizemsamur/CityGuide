@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/home_background"
+    tools:context=".Categories.ParkingAreaCategories">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="15dp"
+        android:layout_margin="10dp"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="?actionBarSize">
+
+            <ImageView
+                android:id="@+id/back_pressed"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:padding="10dp"
+                android:src="@drawable/general_back_icon" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/general_search_icon"
+                android:padding="10dp"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"/>
+
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/featured_image2"
+            android:layout_width="match_parent"
+            android:layout_height="140dp"
+            android:src="@drawable/kapaliotopark"
+            android:scaleType="centerCrop"/>
+
+        <TextView
+            android:id="@+id/featured_title2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kırlareli Belediyesi Kapalı Otopark"
+            android:textSize="16sp"
+            android:textColor="@color/colorAccent"
+            android:fontFamily="sans-serif-medium"/>
+
+        <RatingBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:rating="4.6"
+            style="@style/Widget.AppCompat.RatingBar.Small"/>
+
+        <TextView
+            android:id="@+id/featured_desc2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ücretler ve müsaitlik durumu ile ilgili olarak bu işletmeyle iletişime geçin. \nAdres: Karakaş, Zincirlikuyu 2. Geçidi Sk., 39000 Kırklareli Merkez/Kırklareli"/>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp">
+            <EditText
+                android:id="@+id/comment"
+                android:layout_width="300dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginBottom="0dp"
+                android:hint="Yorum Yazınız:"
+                android:inputType="text"
+                android:textColor="@color/black">
+            </EditText>
+            <Button
+                android:id="@+id/commentBtn"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="10dp"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/comment2">
+
+            </Button>
+
+
+        </RelativeLayout>
+        <ImageView
+            android:id="@+id/featured_image3"
+            android:layout_width="match_parent"
+            android:layout_height="140dp"
+            android:src="@drawable/cemotopark"
+            android:scaleType="fitXY"/>
+
+        <TextView
+            android:id="@+id/featured_title3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cem Otopark"
+            android:textSize="16sp"
+            android:textColor="@color/colorAccent"
+            android:fontFamily="sans-serif-medium"/>
+
+        <RatingBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:rating="4.6"
+            style="@style/Widget.AppCompat.RatingBar.Small"/>
+
+        <TextView
+            android:id="@+id/featured_desc3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fiyat Bilgi: 3 saat 15TL. \nAdres: Karakaş, Zincirli Kuyu Cd. No:41, 39000 Kırklareli Merkez/Kırklareli"/>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp">
+            <EditText
+                android:id="@+id/comment"
+                android:layout_width="300dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginBottom="0dp"
+                android:hint="Yorum Yazınız:"
+                android:inputType="text"
+                android:textColor="@color/black"
+                tools:ignore="DuplicateIds">
+            </EditText>
+            <Button
+                android:id="@+id/commentBtn"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="10dp"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/comment2"
+                tools:ignore="DuplicateIds">
+
+            </Button>
+
+
+        </RelativeLayout>
+        <ImageView
+            android:id="@+id/featured_image"
+            android:layout_width="match_parent"
+            android:layout_height="140dp"
+            android:src="@drawable/cetinotopark"
+            android:scaleType="centerCrop"/>
+
+        <TextView
+            android:id="@+id/featured_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Çetin Otopark"
+            android:textSize="16sp"
+            android:textColor="@color/colorAccent"
+            android:fontFamily="sans-serif-medium"/>
+
+        <RatingBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:rating="4.6"
+            style="@style/Widget.AppCompat.RatingBar.Small"/>
+
+        <TextView
+            android:id="@+id/featured_desc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ücretler ve müsaitlik durumu ile ilgili olarak bu işletmeyle iletişime geçin.
+            \nAdres: Karakaş, Uzun Sk., 39000 Kırklareli Merkez/Kırklareli
+            \nTelefon: (0288) 214 04 67"/>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp">
+            <EditText
+                android:id="@+id/comment"
+                android:layout_width="300dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginBottom="0dp"
+                android:hint="Yorum Yazınız:"
+                android:inputType="text"
+                android:textColor="@color/black"
+                tools:ignore="DuplicateIds">
+            </EditText>
+            <Button
+                android:id="@+id/commentBtn"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="10dp"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/comment2"
+                tools:ignore="DuplicateIds">
+
+            </Button>
+
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+</ScrollView>
