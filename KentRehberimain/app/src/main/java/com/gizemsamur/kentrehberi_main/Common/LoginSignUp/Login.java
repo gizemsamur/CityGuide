@@ -59,16 +59,8 @@ public class Login extends AppCompatActivity {
                 startActivity(comment);
             }
         });
-        //girisYapBtn.setOnClickListener(view -> loginUser());
+        girisYapBtn.setOnClickListener(view -> loginUser());
 
-
-        girisYapBtn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent giris = new Intent(getApplicationContext(), UserDashboard.class);
-                startActivity(giris);
-            }
-        });
     }
 
     public void loginUser() {
@@ -80,13 +72,12 @@ public class Login extends AppCompatActivity {
             etLoginEmail.requestFocus();
             //Toast.makeText(Login.this, "Email gerekli!!", Toast.LENGTH_SHORT).show();
         }else if (password.length() < 6){
-            etLoginPassword.setError("Parola gerekli");
+            etLoginPassword.setError("Parola minimum 6 haneli olmalıdır!");
             etLoginPassword.requestFocus();
             //Toast.makeText(Login.this, "Parola gerekli!!", Toast.LENGTH_SHORT).show();
         }
         else{
-            startActivity(new Intent(Login.this, UserDashboard.class));
-            /*mAuth.signInWithEmailAndPassword(email,password).addOnCompleteListener(new OnCompleteListener<AuthResult>() {
+            mAuth.signInWithEmailAndPassword(email,password).addOnCompleteListener(new OnCompleteListener<AuthResult>() {
                 @Override
                 public void onComplete(@NonNull Task<AuthResult> task) {
                     if (task.isSuccessful()){
@@ -96,7 +87,7 @@ public class Login extends AppCompatActivity {
                         Toast.makeText(Login.this, "Giriş yapılamadı: " + task.getException().getMessage(), Toast.LENGTH_SHORT).show();
                     }
                 }
-            });*/
+            });
         }
     }
     public void tanimlama7(){
